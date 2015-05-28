@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JUnitParams-1.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JUnitParams-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mockito-all-1.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/mockito-all-1.9.5.jar!/" />
+    </SOURCES>
+  </library>
+</component>
