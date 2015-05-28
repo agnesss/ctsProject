@@ -12,7 +12,7 @@
   Un PRODUS se caracterizeaza prin:
   - denumire
   - categorie
-  - id minim (valoare minima de la care incepe licitarea)
+  - bid minim (valoare minima de la care incepe licitarea)
   - bid curent (valoarea ultimei licitari)
   
   OBS! Categoriile utilizate in aplicatie sunt: Jewellery, Paintings si Others. In functie de categoria din care face parte obiectul
