@@ -1,9 +1,11 @@
   ***Introducere***
+  
    Proiectul consta in realizarea unei aplicatii de mici dimensiuni, al carei scenariu sa fie inspirat din viata reala.
    In realizarea aplicatiei se vor implementa cateva dintre design patternurile studiate la curs,corespunzatoare 
    scenariului abordat. La final se va testa corectitudinea implementarii prin realizarea de teste unitare, folosind JUnit Testing.
    
   ***Scenariu Aplicatie***
+  
   Aplicatia isi propune sa simuleze o licitatie. Entitatile care interactioneaza in acest scenariu sunt: Client, Product si Auction
   Un client poate licita pentru un produs, in anumite conditii. In continuarea voi exemplica structura celor doua entitati.
   
@@ -24,6 +26,7 @@
   
   
   ***Design patternuri implementate***
+
   
   1. Builder - pentru crearea unui obiect complex, de tip Auction, prin setarea/actualizarea valorilor campurilor.
   2. Chain of Responsability pentru setarea bidului minim al fiecarui produs oferit spre licitatie, in functie de categoria din
@@ -34,6 +37,7 @@
   
   
   ***Functionalitati implementate***
+
   - licitare produs, in conditiile impuse mai sus. In caz contrar, tentativa va fi atentionata prin aruncarea de exceptii create
   de utilizator: LowerThanMinBidValueException si LowerThanCurrentBidException
   - procesare input din fisier, recunoasterea obiectelor de tip Product si stabilirea bidului minim in functie de categorie.
@@ -41,6 +45,7 @@
   - funcionalitati ajutatoare pentru converia in/din diferite formate. Exemplu: din String in Date si viceversa.
   
   ***Teste realizate***
+
   Testele realizate au in vedere verificarea corectitudinii metodelor create. In acest sens s-au gandit mai multe cazuri de 
   testare, ce "acopera" cat mai multe posibilitati. 
   1. testare metoda care seteaza bid minim, dupa categorie. Pentru "Jewellery" bidul de start este 2000, pentru "Paintings" 
