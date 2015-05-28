@@ -1,6 +1,6 @@
   ***Introducere***
   
-   Proiectul consta in realizarea unei aplicatii de mici dimensiuni, al carei scenariu sa fie inspirat din viata reala.
+   Proiectul consta in realizarea unei aplicatii, al carei scenariu sa fie inspirat din viata reala.
    In realizarea aplicatiei se vor implementa cateva dintre design patternurile studiate la curs,corespunzatoare 
    scenariului abordat. La final se va testa corectitudinea implementarii prin realizarea de teste unitare, folosind JUnit Testing.
    
